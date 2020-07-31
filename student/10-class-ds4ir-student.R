@@ -384,6 +384,8 @@ library(ggforce)
 library(here)
 
 covnat <- read_csv(here("data","covdata.csv"))
+load(here("data","nytexcess.rda"))
+
 # ```
 # 
 # 
