@@ -1,0 +1,18 @@
+---
+title: "10-class-ds4ir-assignment"
+author: "seu nome aqui"
+date: "`r format(Sys.time(), '%d-%m-%Y')`"
+output: 
+  html_document:
+    number_sections: true
+---
+
+# Assignment {-}
+
+1. A partir de uma das bases de dados utilizadas no curso, produza uma análise que 
+utilize conceitos de *pelo menos* 3 aulas. Lembre-se de definir qual é a pergunta 
+que você está respondendo, e explique brevemente a lógica por trás de transformações 
+de dados, visualizações, etc.
+
+
+**Observação**: Não se esqueça de colocar seu nome. Have fun!
