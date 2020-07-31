@@ -375,14 +375,15 @@
 #   ## Aplicação: Evolução Covid-19
 #   ```{r message=FALSE, warning=FALSE, results='hide'}
 # # remotes::install_github("kjhealy/covdata")
-library(covdata)
+# library(covdata)
 library(tidyverse)
 library(ggrepel)
 library(Cairo)
 library(slider)
 library(ggforce)
+library(here)
 
-covnat
+covnat <- read_csv(here("data","covdata.csv"))
 # ```
 # 
 # 

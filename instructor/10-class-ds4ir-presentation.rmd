@@ -375,14 +375,14 @@ Vamos contar uma história partindo do gráfico abaixo, fazendo passo a passo as
 ## Aplicação: Evolução Covid-19
 ```{r message=FALSE, warning=FALSE, results='hide'}
 # remotes::install_github("kjhealy/covdata")
-library(covdata)
+# library(covdata)
 library(tidyverse)
 library(ggrepel)
 library(Cairo)
 library(slider)
 library(ggforce)
 
-covnat
+covnat <- read_csv(here("data","covdata.csv"))
 ```
 
 
